@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+.friend {
+    margin: 20px;
+    position: relative;
+}
+
+#friend-img {
+    width: 650px;
+    transition: transform 0.1s;
+}
+
+#hand-img {
+    position: absolute;
+    top: 50%;
+    right: -150px; /* Elin başlangıç pozisyonu ekranın sağ dışında */
+    width: 140px;
+    transition: transform 0.5s, right 0.5s;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
